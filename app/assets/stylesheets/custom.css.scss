@@ -17,6 +17,10 @@ $navbar-default-bg: black;
   text-decoration: none;
 }
 
+.panel-custom-heading {
+  background-color: rgba(241,15,20,0.5);
+}
+
 .jumbotron {
   background-image: asset-url('street_cover.jpeg');  
   background-size: cover;
