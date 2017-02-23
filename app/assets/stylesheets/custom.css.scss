@@ -21,13 +21,43 @@ $navbar-default-bg: black;
   background-color: rgba(241,15,20,0.5);
 }
 
-.jumbotron {
-  background-image: asset-url('street_cover.jpeg');  
+#pic {
+  background-image: asset-url('city_cover.jpg'); 
+  // background-repeat: no-repeat;
   background-size: cover;
-  height: 650px;
+  height: 100vh;
+  width: 100%;
+  
+  padding-bottom: 5px;
+  // -webkit-background-size: cover;
+  // -moz-background-size: cover;
+  // -o-background-size: cover;
+  // background-size: cover;
 }
 
-.jumbotron h1 {
+.circle {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  font-size: 40px;
+  color: #FFC60A;
+  line-height: 100px;
+  text-align: center;
+  background: rgba(174,188,174,0.7);
+}
+
+#para4 {
+  font-size: 40px;
+  color: #FFC60A;
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+
+#para1 {
+  padding-top: 50px;
+}
+
+#pic h1 {
   color: #076F6F;
   text-align: center;
   margin-bottom: 30px;
@@ -36,24 +66,14 @@ $navbar-default-bg: black;
 }
 
 body {
- background: #abbaab; /* fallback for old browsers */
- background: -webkit-linear-gradient(to left, #abbaab , #ffffff); /* Chrome 10-25, Safari 5.1-6 */
- background: linear-gradient(to left, #abbaab , #ffffff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: #abbaab; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #abbaab , #ffffff); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #abbaab , #ffffff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .btn-xlarge {
   font-size: 1.7em;
   background-color: black;
-}
-
-.para {
-  margin-top: 10px;
-  color: #FFC60A;
-}
-
-#left-well{
-  background: rgba(174,188,174,0.7);
-  border-radius: 50%;
 }
 
 .article-meta-details {
@@ -82,8 +102,6 @@ body {
 }
 
 .footer {
-  // margin-top: 20px;
-  // padding-top: 5px;
   border-top: 1px solid #eaeaea;
   color: #777;
 }
